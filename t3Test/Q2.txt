@@ -1,0 +1,15 @@
+Q2: (Note: the variable 'windowCount' starts from 2 due to a window being taken up for the main function and the intial call to ackermann. See C code).
+    - Number of procedure calls : 172233
+    - Maximum register window depth : 511
+    
+    With RISC-1 that has 6 register sets: (these will naturally be the same in a complete, well-behaved function)
+        - Register window overflows : 84885
+        - Register window underflows : 84885 
+        
+    With RISC-1 that has 8 register sets: (these will naturally be the same in a complete, well-behaved function)
+        - Register window overflows : 83911
+        - Register window underflows : 83911
+        
+    With RISC-1 that has 16 register sets: (these will naturally be the same in a complete, well-behaved function)
+        - Register window overflows : 80142
+        - Register window underflows : 80142 

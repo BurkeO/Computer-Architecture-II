@@ -1,0 +1,15 @@
+Q3:
+    So, my approach was to use the timing functionalities in the C language. Specifically the 'clocks()' and 'CLOCKS_PER_SEC' fields.
+    The 'clock()' function will return raw processor clock time since the program is started. This must then be divided by the number of processor clock ticks per second
+    in order to obtain the time in seconds. So, the time was taken both before and after the call to ackermann. The values were then subtracted and this is how long the 
+    code took to execute. I've sampled the time three times, as values will be placed in the cache, which will reduce the execution time. I then also provided an average
+    of these times. The times should be quite accurate as they continue to 6 decimal places and given that an average is provided, the times should be an accurate representation
+    of the execution time. Also, the fact that the time is based purely off the clock ticks should also increase its accuracy.
+    
+    - Took 0.001390 seconds to execute 
+    - Took 0.001361 seconds to execute 
+    - Took 0.001389 seconds to execute 
+    - Average time = 0.001380 seconds 
+
+
+    

@@ -1,0 +1,12 @@
+Q1:
+    i): Hits = 9
+        Misses = 23
+      
+    ii): Hits = 13
+         Misses = 19
+        
+    iii): Hits = 15
+          Misses = 17
+          
+    iv): Hits = 16
+         Misses = 16
